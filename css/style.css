@@ -1,0 +1,25 @@
+.conth1,
+.conth2 {
+  background-color: #c4c4c4;
+}
+.conth2 {
+  width: 1041px;
+  height: 30px;
+  left: 225px;
+  top: 352px;
+}
+h1 {
+  font-size: 35px;
+}
+
+h1,
+h2 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #005677;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+}
