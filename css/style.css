@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fon1);
+  font-weight: 300px;
+  background-color: #E5E5E5;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+fieldset {
+  border: 0;
+  padding: 0.01em 0 0 0;
+  margin: 0;
+  min-width: 0;
+}
+
+.headercontenedor {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.headercontenedor_top {
+  display: flex;
+  justify-content: space-around;
+  background-color: #E5E5E5;
+}
+
+.headercontenedor_bottom {
+  display: flex;
+  justify-content: space-around;
+  background: #C4C4C4;
+}
+
+.headercontenedor_bottom h1 {
+  font-family: "'Times New Roman', Roboto", sans-serif;
+  font-size: 35px;
+  color: #005677;
+  letter-spacing: 9.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.maincontenedor {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 5%;
+  background-color: #FFFFFF;
+}
+
+.maincontenedor-section {
+  margin: 0 auto;
+  max-width: 1041px;
+}
+
+.maincontenedor-section-conth2 {
+  padding: 0% 4% 0% 4%;
+}
+
+.maincontenedor-section-conth2 h2 {
+  background-color: #C4C4C4;
+  padding: 0.7%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #005677;
+  font-family: "'Times New Roman', Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.maincontenedor-section-conth2 ul {
+  padding: 2% 5% 2% 5%;
+}
+
+.maincontenedor-section-conth2 ul li {
+  list-style-type: disc;
+  padding: 0.3%;
+}
+
+.maincontenedor-section-conth2 .contdl {
+  padding: 1%;
+}
+
+.maincontenedor-section-conth2 .contdl dl {
+  padding: 1% 5% 1% 5%;
+}
+
+.maincontenedor-section-conth2 .contdl dl dt span {
+  font-weight: 600;
+}
+
+.maincontenedor-section-conth2 .contdl dl dd {
+  margin-left: 9%;
+}
+
+.footercontenedor {
+  margin: 0 auto;
+  max-width: 1440px;
+  background-color: #005677;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.footercontenedor h2 {
+  font-family: "'Times New Roman', Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #FFFFFF;
+}

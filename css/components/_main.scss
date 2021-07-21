@@ -1,0 +1,45 @@
+.maincontenedor {
+  margin: 0 auto;
+  max-width: $maxw;
+  padding: 5%;
+  background-color: $ColorQuinario;
+  &-section {
+    margin: 0 auto;
+    max-width: 1041px;
+    &-conth2 {
+      padding: 0% 4% 0% 4%;
+      h2 {
+        background-color: $ColorSecundario;
+        padding: 0.7%;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        color: $ColorTerceario;
+        font-family: $fon1;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      ul {
+        padding: 2% 5% 2% 5%;
+        li {
+          list-style-type: disc;
+          padding: 0.3%;
+        }
+      }
+      .contdl {
+        padding: 1%;
+        dl {
+          padding: 1% 5% 1% 5%;
+          dt {
+            span {
+              font-weight: 600;
+            }
+          }
+          dd {
+            margin-left: 9%;
+          }
+        }
+      }
+    }
+  }
+}

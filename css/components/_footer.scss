@@ -1,0 +1,15 @@
+.footercontenedor {
+  margin: 0 auto;
+  max-width: $maxw;
+  background-color: $ColorTerceario;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  h2 {
+    font-family: $fon1;
+    font-style: normal;
+    font-weight: bold;
+    color: $ColorQuinario;
+  }
+}
